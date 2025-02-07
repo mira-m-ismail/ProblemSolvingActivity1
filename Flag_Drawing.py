@@ -32,7 +32,7 @@ def draw_flagpole(x,y,height,color):
     t.pencolor(color)
     t.forward(height)
 
-'''def draw_flag(x,y,scale_factor):
+def draw_flag(x,y,scale_factor):
     draw_flagpole(x,y,height,color)
     draw_rectangle(x,y,width,height,color)
     draw_circle(x,y,radius,color)
@@ -40,7 +40,8 @@ def draw_flagpole(x,y,height,color):
 def main():
     t.bgcolor("lightblue")
     draw_flag(-50,50,1)
-    draw_flag(50,50,0.5)'''
+    draw_flag(50,50,0.5)
+main()    
 
     
 
